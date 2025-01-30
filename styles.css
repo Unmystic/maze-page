@@ -127,3 +127,26 @@ h2 {
   font-size: 36px;
   color: #1f2937;
 }
+
+.quote-cont {
+  display: flex;
+  padding: 40px;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e5e7eb;
+}
+
+.quote {
+  width: 50%;
+  font-size: 36px;
+  /* text-align: center; */
+  align-self: center;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f2937;
+}
+.author {
+  text-align: right;
+  width: 40%;
+  margin: 0;
+}
