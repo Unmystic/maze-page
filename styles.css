@@ -21,7 +21,7 @@ a,
 
 .links {
   display: flex;
-  gap: 10px;
+  gap: 20px;
   justify-content: center;
   text-align: center;
 }
@@ -177,4 +177,12 @@ h2 {
   margin: 0;
   height: fit-content;
   align-self: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding: 30px;
 }
